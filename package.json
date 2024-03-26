@@ -1,0 +1,16 @@
+{
+  "name": "dumpndie",
+  "version": "1.0.0",
+  "description": "dump and die, debugging helper function that prints each parameter to the console and then stops script execution",
+  "main": "dist/index.js",
+  "author": "edycpp@gmail.com",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.3"
+  }
+}
