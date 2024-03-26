@@ -34,11 +34,11 @@ npm i dumpndie-nodejs --save-dev
 yarn add dumpndie-nodejs --dev
 ```
 
-## Usage
+# Usage
 
 ### ES6
 
-```javascript copy
+```javascript 
 import {dd} from "dumpndie-nodejs";
 // or
 import {dump} from "dumpndie-nodejs";
@@ -50,9 +50,9 @@ dump("Hello", { foo: "bar" }, [1, 2, 3]);
 dd("Hello", { foo: "bar" }, [1, 2, 3]); // stops script execution
 ```
 
-### Commonjs
+### CommonJS
 
-```javascript copy
+```javascript 
 const {dd} = require("dumpndie-nodejs");
 // or
 const {dump} = require("dumpndie-nodejs");
