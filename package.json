@@ -1,5 +1,5 @@
 {
-  "name": "dumpndie",
+  "name": "@edaijs/dumpndie",
   "version": "1.0.0",
   "description": "dump and die, debugging helper function that prints each parameter to the console and then stops script execution",
   "main": "dist/index.js",
