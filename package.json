@@ -1,6 +1,6 @@
 {
-  "name": "@edaijs/dumpndie",
-  "version": "1.0.0",
+  "name": "dumpndie-nodejs",
+  "version": "1.0.1",
   "description": "dump and die, debugging helper function that prints each parameter to the console and then stops script execution",
   "main": "dist/index.js",
   "author": "edycpp@gmail.com",

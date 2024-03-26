@@ -12,19 +12,19 @@ To install this function, you can import it from the module where it is defined:
 
 ### NPM
 ```bash
-npm i @edaijs/dumpndie --save-dev 
+npm i dumpndie-nodejs --save-dev 
 ```
 
 ### Yarn
 ```bash
-yarn add @edaijs/dumpndie --dev
+yarn add dumpndie-nodejs --dev
 ```
 
 ## Usage
 
 ### ES6
 ```javascript copy
-import dd from '@edaijs/dumpndie';
+import dd from 'dumpndie-nodejs';
 
 dd("Hello", {foo: "bar"}, [1, 2, 3]);
 
@@ -32,7 +32,7 @@ dd("Hello", {foo: "bar"}, [1, 2, 3]);
 
 ### Commonjs
 ```javascript copy
-const dd = require('@edaijs/dumpndie');
+const dd = require('dumpndie-nodejs');
 
 dd("Hello", {foo: "bar"}, [1, 2, 3]);
 
